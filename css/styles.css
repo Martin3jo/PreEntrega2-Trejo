@@ -90,6 +90,32 @@ main {
     "formativas aside"
     "fem aside";
 }
+#mainHincha {
+  background-color: #fef9fd;
+  background-size: cover;
+  background-image: url(../images/Escudo\ YANDA.png);
+  background-position: center;
+  background-size: 70%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "h3"
+    "form"
+    ".";
+  justify-items: center;
+  align-items: baseline;
+  justify-content: center;
+}
+#h3Hincha {
+  grid-area: h3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#formHincha {
+  grid-area: form;
+}
 
 /* Estilos main-section */
 
@@ -137,11 +163,7 @@ main {
   font-family: "Roboto Condensed", sans-serif;
   text-align: center;
 }
-.sectionHincha {
-  background-size: cover;
-  background-image: url(../images/Escudo\ YANDA.png);
-  background-position: center;
-}
+
 #noticias1ra {
   text-align: center;
 
