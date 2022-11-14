@@ -30,11 +30,13 @@ header {
   border: 5px solid #054598;
 }
 nav {
-  background-color: #2aa821;
   width: 100%;
   height: 50px;
   grid-area: menu;
   justify-content: flex-start;
+}
+.color-nav {
+  background-color: #2aa821;
 }
 .headerDivh1 {
   display: flex;
