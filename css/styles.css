@@ -23,9 +23,7 @@ header {
   background-color: #2aa821;
   grid-area: titulo;
 }
-.h1Header {
-  font-size: 1.5em;
-}
+
 .headerNav {
   border: 5px solid #054598;
 }
