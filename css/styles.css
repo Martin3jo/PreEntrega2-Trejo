@@ -251,6 +251,10 @@ footer {
   flex-direction: column;
   justify-content: space-around;
 }
+
+div a {
+  color: #fef9fd;
+}
 @media only screen and(max-width:1024px) {
 }
 
