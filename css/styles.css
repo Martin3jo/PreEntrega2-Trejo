@@ -19,7 +19,7 @@
 /* Estilos en el header-general */
 header {
   width: 100%;
-  height: 100px;
+  height: 110px;
   background-color: #2aa821;
   grid-area: titulo;
 }
@@ -231,6 +231,8 @@ aside {
   background-position: center;
   background-color: #2aa821;
   text-align: center;
+}
+.imgGaleria {
 }
 
 /* Estilos en el footer */
