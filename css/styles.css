@@ -143,6 +143,12 @@ main {
 #formHincha {
   grid-area: form;
 }
+#mainNosotros {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas: "parrafo";
+}
 
 /* Estilos main-section */
 
@@ -230,6 +236,7 @@ main {
   font-family: cursive;
   font-size: xx-large;
   text-align: -webkit-center;
+  grid-area: parrafo;
 }
 .divGaleria {
   display: flex;
