@@ -94,7 +94,8 @@ main {
 }
 #mainHincha {
   background-color: #fef9fd;
-  background-size: cover;
+  background-size: 1000px;
+  background-repeat: no-repeat;
   background-image: url(../images/Escudo\ YANDA.png);
   background-position: center;
   background-size: 70%;
@@ -123,6 +124,16 @@ button {
 }
 .imgGaleria {
   grid-area: imagenes;
+}
+#mainNoticias {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 3fr 0.5fr;
+  grid-template-areas:
+    "noticiasPrimera aside"
+    "noticiasSub21 aside"
+    "noticiasForm aside"
+    "noticiasFem aside";
 }
 #h3Hincha {
   grid-area: h3;
@@ -183,22 +194,28 @@ button {
 
 #noticias1ra {
   text-align: center;
+  grid-area: noticiasPrimera;
 
   font-size: large;
 }
 #noticiasSub21 {
   text-align: center;
 
+  grid-area: noticiasub21;
+
   font-size: large;
 }
 #noticiasFormativas {
   text-align: center;
   font-size: large;
+
+  grid-area: noticiasForm;
 }
 #noticiasFemenino {
   text-align: center;
 
   font-size: large;
+  grid-area: noticiasFem;
 }
 .escudoNoticias {
   background-color: #2aa821;
