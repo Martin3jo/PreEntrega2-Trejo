@@ -109,6 +109,21 @@ main {
   align-items: baseline;
   justify-content: center;
 }
+#mainGaleria {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+  grid-template-areas: ". imagenes .";
+  justify-items: center;
+  align-items: baseline;
+  justify-content: center;
+}
+button {
+  color: #054598;
+}
+.imgGaleria {
+  grid-area: imagenes;
+}
 #h3Hincha {
   grid-area: h3;
   display: flex;
@@ -231,8 +246,6 @@ aside {
   background-position: center;
   background-color: #2aa821;
   text-align: center;
-}
-.imgGaleria {
 }
 
 /* Estilos en el footer */
