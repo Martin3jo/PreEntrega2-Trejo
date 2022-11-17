@@ -72,6 +72,9 @@ li {
   padding: 5px;
   font-weight: bold;
 }
+.fwInicio {
+  font-weight: bold;
+}
 /*Estilos en la main  */
 
 main {
@@ -285,7 +288,19 @@ footer {
 div a {
   color: #fef9fd;
 }
-@media only screen and(max-width:1024px) {
+@media only screen and (max-width: 1024px) {
+  nav ul li a:link,
+  a:visited,
+  a:active {
+    background-color: #054598;
+    border: 1px solid #fef9fd;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+  nav ul li {
+    border-right: none;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -295,6 +310,13 @@ div a {
   nav ul li a:link,
   a:visited,
   a:active {
-    color: black;
+    background-color: #054598;
+    border: 1px solid #fef9fd;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+  nav ul li {
+    border-right: none;
   }
 }
